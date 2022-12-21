@@ -47,11 +47,11 @@ function check() {
         alert("Correct Answer");
     }else{
         if(answer_turn == "player1"){
-            player1_score += 1;
-            document.getElementById("player1_score").innerHTML = player1_score;
-        }else{
             player2_score += 1;
             document.getElementById("player2_score").innerHTML = player2_score;
+        }else{
+            player1_score += 1;
+            document.getElementById("player1_score").innerHTML = player1_score;
         }
         alert("Wrong Answer");
     }
